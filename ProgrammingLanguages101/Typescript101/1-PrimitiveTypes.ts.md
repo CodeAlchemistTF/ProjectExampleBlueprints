@@ -4,31 +4,32 @@
 ```
 // 1. string
 let myString: string = "Hello, TypeScript!";
-console.log("String:", myString);
+console.log(`String: ${myString}`);
 
 // 2. number
 let myNumber: number = 42;
-console.log("Number:", myNumber);
+console.log(`Number: ${myNumber}`);
 
 // 3. boolean
 let myBoolean: boolean = true;
-console.log("Boolean:", myBoolean);
+console.log(`Boolean: ${myBoolean}`);
 
 // 4. null
 let myNull: null = null;
-console.log("Null:", myNull);
+console.log(`Null: ${myNull}`);
 
 // 5. undefined
 let myUndefined: undefined = undefined;
-console.log("Undefined:", myUndefined);
+console.log(`Undefined: ${myUndefined}`);
 
 // 6. symbol
 let mySymbol: symbol = Symbol("uniqueSymbol");
-console.log("Symbol:", mySymbol.toString()); // Convert symbol to string for logging
+console.log(`Symbol: ${mySymbol.toString()}`); // Convert symbol to string for output
 
 // 7. bigint
 let myBigInt: bigint = 123456789012345678901234567890n;
-console.log("BigInt:", myBigInt);
+console.log(`BigInt: ${myBigInt}`);
+
 ```
 
 ## Numbers and Decimals
